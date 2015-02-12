@@ -1,0 +1,13 @@
+* el-init-viewer
+
+Record viewer for el-init.
+
+This is a viewer of =el-init-record=.
+
+** Usage
+
+Type =M-x el-init-viewer=.
+
+** Screenshot
+
+[[file:screenshot.png]]
