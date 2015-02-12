@@ -1,5 +1,7 @@
 * el-init-viewer
 
+[[https://travis-ci.org/HKey/el-init-viewer][https://travis-ci.org/HKey/el-init-viewer.svg?branch=master]]
+
 Record viewer for [[https://github.com/HKey/el-init][el-init]].
 
 This is a viewer of =el-init-record=.
