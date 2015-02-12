@@ -1,6 +1,6 @@
 * el-init-viewer
 
-Record viewer for el-init.
+Record viewer for [[https://github.com/HKey/el-init][el-init]].
 
 This is a viewer of =el-init-record=.
 
