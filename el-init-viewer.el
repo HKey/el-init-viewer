@@ -205,7 +205,7 @@
          (no-data-column-flags
           (apply #'cl-mapcar
                  no-data-column-p
-                 data))
+                 (or data (list nil))))
          (remove-no-data-column
           (lambda (columns flags)
             (cl-loop for c in columns
