@@ -1,0 +1,12 @@
+* el-init-viewer ChangeLog
+
+** 0.1.1
+
+[[https://github.com/HKey/el-init-viewer/compare/0.1.0...master][commits]]
+
+- Added a function to jump to a setting file \\
+  You can now jump to a setting file by clicking the "Name" column of it.
+
+** 0.1.0
+
+Initial release
