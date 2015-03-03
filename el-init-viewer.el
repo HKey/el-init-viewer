@@ -59,8 +59,14 @@
 
 (defvar el-init-viewer-column/feature-name
   (make-el-init-viewer-column
-   :cmodel (make-ctbl:cmodel :title "Name" :align 'left)
-   :key #'symbol-name))
+   :cmodel
+   (make-ctbl:cmodel :title "Name" :align 'left)
+   :key
+   (lambda (feature)
+     (let ((name (symbol-name feature)))
+       (propertize name
+                   'font-lock-face 'button
+                   'action (lambda () (find-library name)))))))
 
 ;; el-init-require/benchmark
 
