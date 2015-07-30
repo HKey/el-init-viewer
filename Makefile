@@ -1,6 +1,5 @@
 EMACS ?= emacs
 CASK  ?= cask
-MAKE  ?= make
 
 .PHONY: clean compile
 
