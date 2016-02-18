@@ -14,4 +14,4 @@ Type =M-x el-init-viewer=.
 
 ** Screenshot
 
-[[file:screenshot.png]]
+[[file:https://raw.githubusercontent.com/HKey/el-init-viewer-assets/master/screenshot.png]]
