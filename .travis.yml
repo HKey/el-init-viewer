@@ -5,15 +5,12 @@ before_install:
   - export PATH="$HOME/.evm/bin:$PATH"
   - evm config path /tmp
 
-  # install emacs 24
-  - evm install emacs-24.5-travis --use --skip
+  # install emacs
+  - evm install $EVM_EMACS --use --skip
 
   # install cask
   - curl -fsSL https://raw.githubusercontent.com/cask/cask/master/go | python
   - export PATH="$HOME/.cask/bin:$PATH"
-
-  # install emacs
-  - evm install $EVM_EMACS --use --skip
 
   # setup cask
   - cask
@@ -23,8 +20,6 @@ script:
   - make compile
 
 env:
-  - EVM_EMACS=emacs-24.1-travis
-  - EVM_EMACS=emacs-24.2-travis
-  - EVM_EMACS=emacs-24.3-travis
-  - EVM_EMACS=emacs-24.4-travis
   - EVM_EMACS=emacs-24.5-travis
+  - EVM_EMACS=emacs-25.3-travis
+  - EVM_EMACS=emacs-26.1-travis
