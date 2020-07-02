@@ -1,8 +1,8 @@
 * el-init-viewer
 
 [[https://travis-ci.org/HKey/el-init-viewer][https://travis-ci.org/HKey/el-init-viewer.svg?branch=master]]
-[[http://melpa.org/#/el-init-viewer][file:http://melpa.org/packages/el-init-viewer-badge.svg]]
-[[http://stable.melpa.org/#/el-init-viewer][file:http://stable.melpa.org/packages/el-init-viewer-badge.svg]]
+[[https://melpa.org/#/el-init-viewer][file:https://melpa.org/packages/el-init-viewer-badge.svg]]
+[[https://stable.melpa.org/#/el-init-viewer][file:https://stable.melpa.org/packages/el-init-viewer-badge.svg]]
 
 Record viewer for [[https://github.com/HKey/el-init][el-init]].
 
